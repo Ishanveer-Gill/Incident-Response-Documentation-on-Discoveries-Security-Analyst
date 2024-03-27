@@ -21,11 +21,11 @@ The document includes summaries, evaluations of outcomes, actions taken in respo
 
 **Incident Summary**
 
-On January 6, 2024, at 11:25:48 UTC, Azure Sentinel detected a brute force attack attempt on a Windows system named "windows-vm01". The attacker, identified as IP address 14.192.144.254, made around 15,000 login attempts with no success. The incident suggests a deliberate attempt to gain unauthorized access and elevate privileges on the targeted system.
+On March 26, 2024, at 21:21:11 Eastern Time, Azure Sentinel detected a brute force attack attempt on a MS SQL Server located inside of my "windows-vm". The attackera, identified as 2 IP addresses 182.200.7.72 and 20.240.208.141, attempted to brute force inside the SQL server with no success. This incident shows someone trying to break into a system and get more control than they should have.
 
 **Impact Assessment**
 
-The occurrence has been categorized as a verified security breach because of the substantial volume of brute force login attempts and the activation of multiple alerts.
+The incident has been classified as a confirmed security breach due to the IP addresses originating from locations outside the USA, and these attackers are linked to other alerts and incidents.
 
 **Initial Response Actions**
 
