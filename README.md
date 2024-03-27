@@ -29,22 +29,22 @@ The incident has been classified as a confirmed security breach due to the IP ad
 
 **Initial Response Actions**
 
-1. Verify the authenticity of the alert.
-2. Immediately isolate the "windows-vm" system and change the passwords of all affected user accounts.
-3. Identify the origin and nature of the attack.
-4. Determine the timeframe and method of the attack.
-5. Check other Network Security Groups (NSGs) to assess if they are being targeted as well.
-6. Conduct a comprehensive review of logs for any other suspicious activities.
-7. Review user accounts with elevated privileges and verify the integrity of sensitive data stored on the system.
+- Check if the alert is valid.
+- Separate the "windows-vm" and MS SQL system right away and change passwords for affected users.
+- Find out where and how the attack started.
+- Figure out when and how the attack happened.
+- Look at other Network Security Groups (NSGs) to see if they're attacked too.
+- Review logs for anything suspicious.
+- Look into accounts with special access and make sure sensitive data is safe.
 
 **Containment and Recovery**
 
-1. Implement temporary network segmentation to prevent the attacker from accessing other systems.
-2. Adjust the NSG rules to restrict unnecessary traffic to the "windows-vm" system.
-3. Reset the passwords for affected user accounts and enforce strong password policies.
-4. Enable multi-factor authentication (MFA) for all user accounts to enhance security.
-5. Conduct a full virus scan on the "windows-vm" system to check for malware infections.
-6. Monitor the system for any further unusual activity to ensure it remains secure.
+- Block the attacker from reaching other systems by creating a temporary network barrier.
+- Restrict unnecessary traffic to the "windows-vm" system by adjusting NSG settings.
+- Change passwords for affected users and make sure they're strong.
+- Add extra security by enabling multi-factor authentication (MFA) for all users.
+- Scan the "windows-vm" and SQL server/system thoroughly for malware.
+- Keep an eye on the system for any more strange activity to ensure it stays safe.
 
 
 
