@@ -55,22 +55,21 @@ The incident has been classified as a confirmed security breach due to the IP ad
 
 **Incident Summary**
 
-On January 5, 2024, at 18:05:12 UTC, Malware was detected on workstation “windows-vm01”, potentially compromising the confidentiality, integrity, availability of the system and data.
+On March 26, 2024, at 20:32:48 Eastern Time, Malware was found on the computer "windows-vm," which could harm the system and its data.
 
 **Initial Response Actions**
 
-1. Verify the authenticity of the alert or report.
-2. Identify the primary user account of the affected system, if applicable.
-3. Notify affected stakeholders and provide guidance on how to protect themselves.
-4. Run a full system scan using an up-to-date antivirus software to identify and remove the malware.
-5. If the malware cannot be removed or significant damage is suspected, shut down the workstation and disconnect it from the network.
+- Confirm if the alert or report is valid.
+- Find the main user account of the affected system, if relevent.
+- Inform people who are affected and show them how to protect themselves.
+- Scan the whole system with updated antivirus software to find and delete any malware.
+- If the malware can't be removed or if there's big damage, turn off the computer and disconnect it from the internet.
 
 **Containment and Recovery**
 
-1. Quarantine the infected workstation and any other potentially impacted systems.
-2. Restore the workstation to a known clean state through system imaging or clean installation.
-3. Strengthen security measures to prevent future malware incidents.
-
+- Separate the infected computer and any others that might be affected.
+- Reset the computer to a known clean state using system imaging or clean installation
+- Enhance security protocols to stop more malware attacks in the future.
 
 
 
