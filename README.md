@@ -46,6 +46,31 @@ The incident has been classified as a confirmed security breach due to the IP ad
 - Scan the "windows-vm" and SQL server/system thoroughly for malware.
 - Keep an eye on the system for any more strange activity to ensure it stays safe.
 
+## Incident ID: 3 - Malware Detected
+
+<p align="center">
+<img src="https://github.com/Ishanveer-Gill/Incident-Response-Documentation-on-Discoveries-Security-Analyst/assets/66128498/af212cde-74b5-4b94-bab3-eabbbde47923" height="80%" width="80%" alt="9"/><br />
+  <p align="center">
+<img src="https://github.com/Ishanveer-Gill/Incident-Response-Documentation-on-Discoveries-Security-Analyst/assets/66128498/4b4f8e68-9f1a-45cc-be17-df8bdef0a0c0" height="30%" width="30%" alt="9"/><br />
+
+**Incident Summary**
+
+On January 5, 2024, at 18:05:12 UTC, Malware was detected on workstation “windows-vm01”, potentially compromising the confidentiality, integrity, availability of the system and data.
+
+**Initial Response Actions**
+
+1. Verify the authenticity of the alert or report.
+2. Identify the primary user account of the affected system, if applicable.
+3. Notify affected stakeholders and provide guidance on how to protect themselves.
+4. Run a full system scan using an up-to-date antivirus software to identify and remove the malware.
+5. If the malware cannot be removed or significant damage is suspected, shut down the workstation and disconnect it from the network.
+
+**Containment and Recovery**
+
+1. Quarantine the infected workstation and any other potentially impacted systems.
+2. Restore the workstation to a known clean state through system imaging or clean installation.
+3. Strengthen security measures to prevent future malware incidents.
+
 
 
 
