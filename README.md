@@ -71,5 +71,28 @@ On March 26, 2024, at 20:32:48 Eastern Time, Malware was found on the computer "
 - Reset the computer to a known clean state using system imaging or clean installation
 - Enhance security protocols to stop more malware attacks in the future.
 
+  ## Incident ID: 4 - Possible Privilege Escalation (Azure Key Vault Critical Credential Retrieval or Update) 
+<p align="center">
+<img src="https://github.com/Ishanveer-Gill/Incident-Response-Documentation-on-Discoveries-Security-Analyst/assets/66128498/f27e5bc4-1508-4904-88b9-60b93303f505" height="70%" width="70%" alt="9"/><br />
+
+
+
+
+**Incident Summary**
+
+On January 5, 2024 at 23:13:41 UTC, Azure Sentinel identified a potential privilege escalation incident linked to the retrieval or modification of Azure Key Vault credentials. "Josh Smith" was implicated in numerous occurrences of accessing crucial credentials and was additionally linked to other incidents, including an unusually high number of password resets and assignments to global admin roles.
+
+**Impact Assessment**
+
+Given that this was a simulated scenario intended for testing and educational purposes, no real impact took place. Nevertheless, the incident raises apprehensions regarding potential privilege escalation and unauthorized access to sensitive information.
+
+**Recommendations**
+
+1. Investigate User's access to the Azure Key Vault and other sensitive resources to determine if any unauthorized access occurred.
+2. Review and update access control policies to prevent similar incidents in the future.
+3. Consider resetting critical credentials and rotating them frequently to limit potential damage in case of a real compromise.
+4. Monitor User's activity closely and revoke their access to sensitive resources if necessary.
+
+
 
 
